@@ -21,7 +21,7 @@ const DEFAULT_LONG = -74.006;
 function updateMapIframe(latitude, longitude) {
   const iframe = document.getElementById("google-maps-iframe");
   const zoomLevel = 14; // Adjust zoom as needed
-  const iframeSrc = `https://www.google.com/maps/embed/v1/view?key=AIzaSyDqkXNjFwqJ-f-Mj059FdEElO4VsIhvRdI&center=${latitude},${longitude}&zoom=${zoomLevel}`;
+  const iframeSrc = `https://www.google.com/maps/embed/v1/view?key=GOOGLE_API_KEY&center=${latitude},${longitude}&zoom=${zoomLevel}`;
 
   iframe.src = iframeSrc;
 }
