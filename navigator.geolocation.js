@@ -8,7 +8,7 @@ function updateMapIframe(latitude, longitude) {
     console.error("Error: Google Maps iframe not found!");
     return;
   }
-  iframe.src = `https://www.google.com/maps/embed/v1/place?key=AIzaSyDqkXNjFwqJ-f-Mj059FdEElO4VsIhvRdI&q=${latitude},${longitude}&zoom=20`;
+  iframe.src = `https://www.google.com/maps/embed/v1/place?key=GOOGLE_API_KEY&q=${latitude},${longitude}&zoom=20`;
 }
 
 // 2. Fetch IP-based location (fallback)
