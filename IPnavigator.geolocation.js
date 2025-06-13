@@ -30,7 +30,7 @@ function updateMapIframe(latitude, longitude) {
     return;
   }
   // Update iframe src with new coordinates
-  iframe.src = `https://www.google.com/maps/embed/v1/view?key=AIzaSyDqkXNjFwqJ-f-Mj059FdEElO4VsIhvRdI&center=${latitude},${longitude}&zoom=14`;
+  iframe.src = `https://www.google.com/maps/embed/v1/view?key=GOOGLE_API_KEY&center=${latitude},${longitude}&zoom=14`;
 }
 
 // Start the process
